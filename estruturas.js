@@ -47,7 +47,41 @@ for (let i = 1; i <= 25 ; i++){
     }
 }
 
+//WHILE LOOP
+let i = 5;
+while (i >= 1){
+    if(i % 2 !==0){
+        console.log(i)
+    }
+    i--;
+}
 
+//DO...WHILE
+let i = 0;
+do {
+    console.log('Digitando!', i);
+    i++;
+} while (i < 10)
+
+
+//FOR IN
+const pessoa = {
+    nome: 'Gustavo',
+    idade: 25
+};
+for(let chave in pessoa){
+    console.log(pessoa['nome'], pessoa['idade']);
+}
+
+const cores = ['Vermelho', 'Azul', 'Verde'];
+for (let indice in cores){
+    console.log(indice, cores[indice])
+}
+
+//FOR-OF
+for(let cor of cores){
+    console.log(cor);
+}
 
 
 
