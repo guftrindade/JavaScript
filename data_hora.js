@@ -3,6 +3,8 @@ var dNow = new Date();
 var localdate = dNow.getDate() + '/' + (dNow.getMonth()+1) + '/' + dNow.getFullYear() + ' ' + dNow.getHours() + ':' + dNow.getMinutes();
 console.log('Data atual: ' + localdate)
 
+
+//Saudação de acordo com horário
 let hora_atual = dNow.getHours();
 
 if (hora_atual > 6 && hora_atual < 12){
